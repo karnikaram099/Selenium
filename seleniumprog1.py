@@ -93,7 +93,7 @@
 # #
 # # from selenium import webdriver
 # #
-# # driver =webdriver.Chrome(r"C:\Users\karni\PycharmProjects\Selenium\chromedriver.exe")
+#driver =webdriver.Chrome(r"C:\Users\karni\PycharmProjects\Selenium\chromedriver.exe")
 # #
 # # # driver.get("https://www.google.com/")
 # # sleep(1)
@@ -123,9 +123,9 @@
 # # #     item.click()
 # # elements[0].click()
 # # elements[3].click()
-# #
-# # from selenium import webdriver
-# # driver = webdriver.Chrome(r"C:\Users\karni\PycharmProjects\Selenium\chromedriver.exe")
+# # #
+# from selenium import webdriver
+# driver = webdriver.Chrome(r"C:\Users\karni\PycharmProjects\Selenium\chromedriver.exe")
 # # driver.get("https://www.python.org/downloads/")
 # # #driver.find_element_by_xpath("//a[text()='Python 3.10.2']/../..//a[text()='Release Notes']").click()
 # # driver.find_element_by_xpath("//a[text()='Python 3.9.8']/../..//a[text()='Release Notes']").click()
@@ -135,3 +135,20 @@
 # driver.find_element_by_xpath("//input[@class = 'button-2 product-box-add-to-cart-button']").click()
 # driver.find_element_by_xpath("//input[@class = 'button-2 product-box-add-to-cart-button']").click()
 #
+
+#.get("http://demowebshop.tricentis.com/")
+
+
+
+# from selenium import webdriver
+# from time import sleep
+# driver = webdriver.Chrome("./chromedriver")
+# driver.get("http://demowebshop.tricentis.com/")
+# driver.maximize_window()
+# sleep(2)
+# driver.find_element_by_xpath("//a[text()='14.1-inch Laptop']/../../..//input[@value='Add to cart']").click()
+
+
+
+
+
