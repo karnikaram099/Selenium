@@ -177,21 +177,7 @@
 # res4 = {(index, item) for index, item in enumerate(list_)}
 # print(res4)
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+
 # list1 = [[1, 2, 3,], [4, 5, 6], [7, 8, 9]]
 # entire_sum = 0
 # for item in list1:
@@ -277,3 +263,6 @@
 li = [1, 2, 3, 45, 65, 99, 3, 4, 5, 67]
 a = (sorted(li))
 # print(a(sum[-3]))
+
+def samantha():
+    print()

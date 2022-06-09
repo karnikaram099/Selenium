@@ -1,3 +1,25 @@
+"""Apart from syntax errors we can handle all the Errors by using Exception Handling
+it is an event which will stop the flow of execution of program
+"""
+#
+x = "hello"
+assert x =="hello"
+print(x)
+
+
+
+# x = "hello"
+# try:
+#     print(x)
+# except:
+#     print("something went wrong")
+# finally:
+#     print("try and exccept excicuted Successfully")
+
+
+
+
+
 # name = "chandu"
 # try:
 #     if name == "madhuri":
@@ -38,10 +60,6 @@
 # print("valueerror")
 #         # raise NameError
 
-
-
-
-
 # a = 10
 # b=0
 # try:
@@ -55,3 +73,6 @@
 #         if username=="john":
 #                 print("username is same")
 # except
+
+
+"""Apart from syntax errors we can handle all the Errors by using Exception Handling"""

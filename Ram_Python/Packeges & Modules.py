@@ -1,7 +1,7 @@
 
 " PACKEGES "
 
-"Selenium"5
+"Selenium"
 "Pytest"
 "xlrd"
 "Collections"
